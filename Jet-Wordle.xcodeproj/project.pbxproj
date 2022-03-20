@@ -51,11 +51,6 @@
 		439377E427E6E92D00481BE3 = {
 			isa = PBXGroup;
 			children = (
-				4393781227E711A000481BE3 /* Animations */,
-				4393780927E6F06800481BE3 /* ViewModels */,
-				4393780627E6ED7000481BE3 /* Extension */,
-				4393780527E6ED6500481BE3 /* Views */,
-				4393780227E6EC5400481BE3 /* Models */,
 				439377EF27E6E92D00481BE3 /* Jet-Wordle */,
 				439377EE27E6E92D00481BE3 /* Products */,
 			);
@@ -72,6 +67,11 @@
 		439377EF27E6E92D00481BE3 /* Jet-Wordle */ = {
 			isa = PBXGroup;
 			children = (
+				4393781227E711A000481BE3 /* Animations */,
+				4393780927E6F06800481BE3 /* ViewModels */,
+				4393780627E6ED7000481BE3 /* Extension */,
+				4393780527E6ED6500481BE3 /* Views */,
+				4393780227E6EC5400481BE3 /* Models */,
 				439377F027E6E92D00481BE3 /* Jet_WordleApp.swift */,
 				4393780027E6EC0200481BE3 /* Assets.xcassets */,
 				439377F627E6E93000481BE3 /* Preview Content */,
