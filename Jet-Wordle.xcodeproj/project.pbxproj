@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		439377F127E6E92D00481BE3 /* Jet_WordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439377F027E6E92D00481BE3 /* Jet_WordleApp.swift */; };
-		439377F327E6E92D00481BE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439377F227E6E92D00481BE3 /* ContentView.swift */; };
-		439377F527E6E93000481BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439377F427E6E93000481BE3 /* Assets.xcassets */; };
+		439377F327E6E92D00481BE3 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439377F227E6E92D00481BE3 /* GameView.swift */; };
 		439377F827E6E93000481BE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439377F727E6E93000481BE3 /* Preview Assets.xcassets */; };
+		439377FF27E6EBC400481BE3 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439377FE27E6EBC400481BE3 /* Color+Extension.swift */; };
+		4393780127E6EC0200481BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4393780027E6EC0200481BE3 /* Assets.xcassets */; };
+		4393780427E6EC6900481BE3 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393780327E6EC6900481BE3 /* Guess.swift */; };
+		4393780827E6ED9E00481BE3 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393780727E6ED9E00481BE3 /* GuessView.swift */; };
+		4393780B27E6F08900481BE3 /* WordleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393780A27E6F08900481BE3 /* WordleDataModel.swift */; };
+		4393780D27E6F55200481BE3 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393780C27E6F55200481BE3 /* Global.swift */; };
+		4393780F27E6FAA800481BE3 /* LetterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393780E27E6FAA800481BE3 /* LetterButtonView.swift */; };
+		4393781127E6FC0D00481BE3 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393781027E6FC0D00481BE3 /* Keyboard.swift */; };
+		4393781427E711B600481BE3 /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393781327E711B600481BE3 /* Shake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		439377ED27E6E92D00481BE3 /* Jet-Wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jet-Wordle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		439377F027E6E92D00481BE3 /* Jet_WordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jet_WordleApp.swift; sourceTree = "<group>"; };
-		439377F227E6E92D00481BE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		439377F427E6E93000481BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		439377F227E6E92D00481BE3 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		439377F727E6E93000481BE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		439377FE27E6EBC400481BE3 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		4393780027E6EC0200481BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4393780327E6EC6900481BE3 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		4393780727E6ED9E00481BE3 /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
+		4393780A27E6F08900481BE3 /* WordleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleDataModel.swift; sourceTree = "<group>"; };
+		4393780C27E6F55200481BE3 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4393780E27E6FAA800481BE3 /* LetterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButtonView.swift; sourceTree = "<group>"; };
+		4393781027E6FC0D00481BE3 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		4393781327E711B600481BE3 /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,11 @@
 		439377E427E6E92D00481BE3 = {
 			isa = PBXGroup;
 			children = (
+				4393781227E711A000481BE3 /* Animations */,
+				4393780927E6F06800481BE3 /* ViewModels */,
+				4393780627E6ED7000481BE3 /* Extension */,
+				4393780527E6ED6500481BE3 /* Views */,
+				4393780227E6EC5400481BE3 /* Models */,
 				439377EF27E6E92D00481BE3 /* Jet-Wordle */,
 				439377EE27E6E92D00481BE3 /* Products */,
 			);
@@ -52,8 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				439377F027E6E92D00481BE3 /* Jet_WordleApp.swift */,
-				439377F227E6E92D00481BE3 /* ContentView.swift */,
-				439377F427E6E93000481BE3 /* Assets.xcassets */,
+				4393780027E6EC0200481BE3 /* Assets.xcassets */,
 				439377F627E6E93000481BE3 /* Preview Content */,
 			);
 			path = "Jet-Wordle";
@@ -65,6 +85,50 @@
 				439377F727E6E93000481BE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4393780227E6EC5400481BE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4393780327E6EC6900481BE3 /* Guess.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4393780527E6ED6500481BE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				439377F227E6E92D00481BE3 /* GameView.swift */,
+				4393780727E6ED9E00481BE3 /* GuessView.swift */,
+				4393780E27E6FAA800481BE3 /* LetterButtonView.swift */,
+				4393781027E6FC0D00481BE3 /* Keyboard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4393780627E6ED7000481BE3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				439377FE27E6EBC400481BE3 /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4393780927E6F06800481BE3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4393780A27E6F08900481BE3 /* WordleDataModel.swift */,
+				4393780C27E6F55200481BE3 /* Global.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4393781227E711A000481BE3 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4393781327E711B600481BE3 /* Shake.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4393780127E6EC0200481BE3 /* Assets.xcassets in Resources */,
 				439377F827E6E93000481BE3 /* Preview Assets.xcassets in Resources */,
-				439377F527E6E93000481BE3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439377F327E6E92D00481BE3 /* ContentView.swift in Sources */,
+				4393780F27E6FAA800481BE3 /* LetterButtonView.swift in Sources */,
+				439377F327E6E92D00481BE3 /* GameView.swift in Sources */,
+				4393780827E6ED9E00481BE3 /* GuessView.swift in Sources */,
+				4393780427E6EC6900481BE3 /* Guess.swift in Sources */,
+				4393781127E6FC0D00481BE3 /* Keyboard.swift in Sources */,
+				439377FF27E6EBC400481BE3 /* Color+Extension.swift in Sources */,
+				4393781427E711B600481BE3 /* Shake.swift in Sources */,
+				4393780B27E6F08900481BE3 /* WordleDataModel.swift in Sources */,
 				439377F127E6E92D00481BE3 /* Jet_WordleApp.swift in Sources */,
+				4393780D27E6F55200481BE3 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
